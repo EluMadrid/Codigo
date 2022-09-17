@@ -1,0 +1,117 @@
+/* Selectores */
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background: rgb(2,0,36);
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+    background-color: #ebebeb;
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/*Selector de elemento*/
+h1 {
+    color: #ccc;
+    background-color: #424245;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    margin-top: 0%;
+    font-family: 'Ms Madi', cursive;
+}
+h1:hover{
+    color: rgb(219, 216, 216);
+}
+
+table{
+    margin: 10px auto;
+}
+
+#div_temas {
+    display: none;
+}
+
+.audifono img{
+    height: 170px;
+}
+.iphone h3{
+    text-align: right;
+}
+
+.audifono h3{
+    
+    text-align: right;
+
+}
+.laptop h2{
+    font-family: 'Oswald', sans-serif;
+}
+.laptop h3{
+    
+    text-align: right;
+    display: none;
+}
+.laptop:hover h3{
+    transition: all 0.5s;
+    display: block;
+}
+
+
+.product_cell{
+    color: #000;
+    margin-right: 20px;
+    margin: 5px;
+    width: 199px; 
+    height: 280px;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.product_cell h3{
+    color: rgb(37, 189, 31);
+    display: none;
+}
+
+.product_cell:hover{
+    transition: all 0.5s;
+    border: 1px solid #ccc;
+    margin: 2px auto;
+    box-shadow: 0px 0px 10px rgba(204, 204, 204, 0.772);
+    cursor: pointer;
+}
+.product_cell:hover h3{
+    display: block;
+}
+.product_cell:hover > img {
+    opacity: 0.5;
+}
+
+tr{
+    margin: 10px auto;
+}
+
+.div_form{
+    width: 400px;
+    margin: 20px auto;
+}
+
+.div_form > form > input{
+    height: 40px;
+    border-radius: 20px;
+    width: 70%;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.product_cell img:hover{
+    opacity: 0.5;
+}

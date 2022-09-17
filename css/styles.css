@@ -3,30 +3,37 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    
 }
 body{
-    background: rgb(2,0,36);
-    /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
     background-color: #ebebeb;
-
-    font-family: 'Ubuntu', sans-serif;
-
+    font-family: 'Roboto', sans-serif;
 }
 
-/*Selector de elemento*/
 h1 {
-    color: #ccc;
-    background-color: #424245;
+    color: #fff;
+    background-color: rgb(50,50,50);
     padding: 20px;
     text-align: center;
     font-size: 40px;
-    display: block;
-    margin-top: 0%;
-    font-family: 'Ms Madi', cursive;
+    font-family: 'Lato', sans-serif;
+    user-select: none;
 }
 h1:hover{
     color: rgb(219, 216, 216);
+}
+.menu{
+    background-color: rgb(82, 47, 58);
+    display:flex;
+    padding: 10px ;
+    justify-content: center;
+}
+.menu a{
+    color: #fff;
+    margin: 0 10px;
+}
+.menu a:hover{
+    color: black;
+    transition: 1ms;
 }
 
 table{
@@ -50,7 +57,7 @@ table{
 
 }
 .laptop h2{
-    font-family: 'Oswald', sans-serif;
+   
 }
 .laptop h3{
     
@@ -73,7 +80,7 @@ table{
     border-radius: 10px;
     padding: 10px;
     background-color: #fff;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  
 }
 .product_cell h3{
     color: rgb(37, 189, 31);

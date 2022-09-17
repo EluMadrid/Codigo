@@ -1,88 +1,29 @@
 <html>
  <head>
     <title>
-        Inicio
+       Mi portafolio
     </title>
-    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 
  </head>
  <body>
-    <div style="width: 100%; margin: 0px auto;">
+    <div>
         <header>
-            <h1 style="text-align: center;">Apple</h1>
-            <p style="text-align: center;">Productos Top</p>
+            <div><h1 style="text-align: center;">Mi portafolio</h1></div>
+            <div class="menu">
+            
+                <div><a href="">Home</div>
+                <div><a href="./apple.html">Apple</div>
+                <div><a href="./formulario.html">Formulario</div>
+                <div><a href="">Reto</div>
+           
+            </div>
         </header>
-        <main>
-            <div id="div_temas">
-                <h4>Temas</h4>
-            <ul>
-                <li><a href="./formulario.html">Formulario</li>
-                <li><a href="./tablas.htdcdfvml">Tablas</a></li>
-                <li><a href="./reto1.html">Reto 1</a></li>
-            </ul>
-            </div>
-            <table>
-                <tr>
-                    <td>
-                        <div class="product_cell iphone">
-                            <h2 style="padding-bottom: 20px;">iPhone 13</h2>
-                            <h3>$799</h3>
-                            <img width="200px" src="https://images.unsplash.com/photo-1640437830863-8f7f38327319?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lJTIwMTN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Foto de un iPhone 13 Negro">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="product_cell laptop">
-                            <h2 style="padding-bottom: 20px">Macbook Pro</h2>
-                            <h3> $1299</h3>
-                            <img width="200px" src="https://images.unsplash.com/photo-1615750185825-fc85c6aba18d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Imagen de Macbook Pro">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="product_cell audifono">
-                            <h2>Airpods Pro</h2>
-                            <h3>$350</h3>
-                            <img alt="Foto de Airpods Pro" width="200px" src="data:image/jpeg;base64,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" alt="">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="product_cell iphone">
-                            <h2 style="padding-bottom: 20px;">iPhone 14</h2>
-                            <h3>$1100</h3>
-                            <img width="200px" src="https://images.unsplash.com/photo-1653921167679-7676ed531a58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Foto de un iPhone 13 Negro">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="product_cell laptop">
-                            <h2 style="padding-bottom: 20px">Macbook Air</h2>
-                            <h3>999</h3>
-                            <img width="200px" src="https://images.unsplash.com/photo-1532198528077-0d9e4ca9bb40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFjYm9vayUyMGFpcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Imagen de Macbook Pro">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="product_cell audifono">
-                            <h2>Airpods Max</h2>
-                            <h3>$400</h3>
-                            <img alt="Foto de Airpods Pro" width="200px" src="https://images.unsplash.com/photo-1625245488600-f03fef636a3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YWlycG9kcyUyMG1heHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-                        </div>
-                    </td>
-                </tr>
-            </table>
-            <div class="div_form">
-                <form action="#">
-                    <input type="text" name="" id="">
-                    <button type="submit"></button>
-                </form>
-            </div>
-        </main>
+    </div>
+    
         <Footer>
-            <p style="text-align: center;">Hecho por German Steven</p>
+            <p style="text-align: center;">Hecho por Elvia Madrid</p>
         </Footer>
 
     </div>

@@ -4,46 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+
 </head>
 <body>
-    <!-- PARA PODER CREAR UN FORMULARIO NECESITAMOS LA ETIQUETA form-->
-    <!-- !IMPORTANT: Casi todos los tipos de input tienen placeholder-->
-    <form action="">
-        <!-- Lo que esta adentro son las partes del formulario -->
-        <p>
-            <input value="pep" readonly required name="nombre" type="text" placeholder="Ingrese su nombre">
-        </p>
-
-        <p>
-            <input required name="edad"type="number" placeholder="Ingrese su edad">
-        </p>
-
-        <p>
-            <input required name="email"type="email" placeholder="Ingrese su correo">
-        </p>
+    <header>
+        <div><h1 style="text-align: center;">Formulario</h1></div>
+        <div class="menu">
         
-        <p>
-            <input required name="contraseña"type="password" placeholder="Ingrese su contraseña">
-        </p>
+            <div><a href="./index.html">Home</div>
+            <div><a href="./apple.html">Apple</div>
+            <div><a href="./formulario.html">Formulario</div>
+            <div><a href="./reto1.html">Reto</div>
+       
+        </div>
+    </header>
+    <div class="body">
+    <form class="form" action="">
+        <h2 class="form__title">Inicia sesión</h2>
+        <p class="form__paragraph">¿Aún no tienes una cuenta? <a href="#" class="form__link"> Entra aquí</a></p>
+        <div class="form__container">
+            <div class="form__group">
+                <input type="text" id="name" class="form__input" value="" name="nombre"  placeholder=" ">
+                <label for="name" class="form__label">Nombre:</label>
+                <span class="form__line"></span>
+             </div>
+             <div class="form__group">
+                <input  type="text"  id="user" class="form__input" value="" name="user" placeholder=" ">
+                <label for="user" class="form__label">Usuario:</label>
+                <span class="form__line"></span>
+             </div>
+             <div class="form__group">
+                <input  type="password" id="password" class="form__input" value="" name="password" placeholder=" ">
+                <label for="password" class="form__label">Contraseña:</label>
+                <span class="form__line"></span>
+             </div>
+             <input type="submit" class="form__submit" value="Entrar">
 
-        <p>
-            <input required type="date">
-        </p>
-
-        <!-- Lista de opciones-->
-        <p>
-            <select required>
-                <option value="" disabled selected>Seleccione un curso</option>
-                <option value="">Curso React</option>
-                <option value="">Curso Angular</option>
-                <option value="">Curso Fundamentos</option>
-                <option value="">Curso CSS</option>
-            </select>
-        </p>
-        <!-- Botones para enviar datos -->
-        <button type="submit">Enviar datos con boton</button>
-        <input type="submit" value="Enviar datos con input">
+        </div>
     </form>
+</div>
+
+
+
 </body>
 </html>

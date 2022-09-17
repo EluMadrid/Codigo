@@ -40,7 +40,7 @@ body{
 }
 
 .left-image{
-    background: url("../images/image-product-desktop.jpg");
+    background: url("../imagenes/image-product-desktop.jpg");
     height: 200px;
     width: 300px;
     background-size: cover;

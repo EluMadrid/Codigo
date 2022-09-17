@@ -87,8 +87,7 @@ button:hover{
     color: hsl(228, 12%, 48%);
     margin-left: 10px;
     font-size: 13px;
-    text-decoration: line-through;
-
+    text-decoration: line-throug723
 }
 
 @media (min-width: 600px){

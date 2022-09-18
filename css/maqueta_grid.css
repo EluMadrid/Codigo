@@ -53,18 +53,18 @@ body{
     grid-area: footer;
 }
 
-@media (min-width: 700px){
+@media (min-width: 800px){
     .grid-container{
 
         grid-template: 
         "header header" 80px
         "portada portada" 200px
         "aside main" auto 
-        "footer footer" 80px / 200px auto;
+        "footer footer" 80px / 1.5fr 3fr;
 }
     }
 
-    @media (min-width: 980px){
+    @media (min-width: 1080px){
         .grid-container{
         grid-template: 
         "header header" 80px
@@ -72,4 +72,6 @@ body{
         "aside main" auto 
         "footer footer" 80px / 1.5fr 3fr;
     }
-        
+}
+    
+       

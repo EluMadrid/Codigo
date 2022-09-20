@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -52,6 +53,7 @@ body{
 
 }
 
+
 .container-image:hover{
     cursor: pointer;
     filter: opacity(.5) drop-shadow(0 0 0 var(--cyan));
@@ -101,6 +103,11 @@ h1:hover{
 .eth img{
     margin-right: 8px;
    }
+
+
+.eth::before{
+    
+}
 
 .days-left{
     color: var(--soft-blue);

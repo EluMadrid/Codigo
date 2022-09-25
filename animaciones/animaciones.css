@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+ /*  p {
+  
+    animation-duration: 4s;
+   
+    animation-name: primera-animacion;
+ 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }*/
+
+.este{
+    background-color: blue;
+
+}
+/* * Nombre de la animacion 
+  @keyframes primera-animacion {
+
+    from {
+      margin-left: 100%;
+
+    }
+  
+    to {
+      margin-right: 100%;
+      font-size: 30px;
+    }
+  }*/

@@ -1,0 +1,24 @@
+{
+  "name": "codigo",
+  "version": "1.0.0",
+  "description": "Primer dia con Git/Github\r Lista de comandos de git.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EluMadrid/Codigo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EluMadrid/Codigo/issues"
+  },
+  "homepage": "https://github.com/EluMadrid/Codigo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

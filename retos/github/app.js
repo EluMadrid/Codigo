@@ -5,14 +5,13 @@ const input = document.querySelector(".input-username");
 
 btnSearch = addEventListener("click", function(){
     let username = input.value
-
-    const urlProfile = "https://api.github.com/users/"+username;
-    
+    const urlProfile = "https://api.github.com/users/"+username
 
 fetch(urlProfile)
 .then(response => {
    return response.json();
 })
+
 .then(profile => {
     informationContainer.innerHTML = `
     <div class="principal-information">
